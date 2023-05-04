@@ -139,7 +139,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Arma.cpp" />
+    <ClCompile Include="Escopeta.cpp" />
+    <ClCompile Include="Presenter.cpp" />
+    <ClCompile Include="Revolver.cpp" />
+    <ClCompile Include="Rifle.cpp" />
+    <ClCompile Include="Soldado.cpp" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="View.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Arma.h" />
+    <ClInclude Include="Escopeta.h" />
+    <ClInclude Include="EWeapons.h" />
+    <ClInclude Include="Presenter.h" />
+    <ClInclude Include="Revolver.h" />
+    <ClInclude Include="Rifle.h" />
+    <ClInclude Include="Soldado.h" />
+    <ClInclude Include="IView.h" />
+    <ClInclude Include="View.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

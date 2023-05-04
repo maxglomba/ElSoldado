@@ -13,10 +13,75 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Models">
+      <UniqueIdentifier>{1b7f2264-1eb5-4786-908c-cd5ac6aab010}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Views">
+      <UniqueIdentifier>{0693ed8c-d525-4098-985e-942f8c1a4a7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Presenters">
+      <UniqueIdentifier>{7921e53b-3e60-470c-9a52-4adecb802f5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Views\Interfaces">
+      <UniqueIdentifier>{430906ae-e9aa-4275-b8fb-a0d327454289}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enums">
+      <UniqueIdentifier>{f3d8c96a-dca6-4ea3-bf1c-ab1ebb25810d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Arma.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Rifle.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Escopeta.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Revolver.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Soldado.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Presenter.cpp">
+      <Filter>Presenters</Filter>
+    </ClCompile>
+    <ClCompile Include="View.cpp">
+      <Filter>Views</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Arma.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Revolver.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Escopeta.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Rifle.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Soldado.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Presenter.h">
+      <Filter>Presenters</Filter>
+    </ClInclude>
+    <ClInclude Include="View.h">
+      <Filter>Views</Filter>
+    </ClInclude>
+    <ClInclude Include="IView.h">
+      <Filter>Views\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="EWeapons.h">
+      <Filter>Enums</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
